@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: darkolivegreen;
+}
+nav {
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 4em;
+}
+nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.nav-logga {
+    width: 5em;
+}
+.produkter {
+    width: 55em;
+}
+#ageverify_box {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+#agebtn_contain {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+#over21 {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+    max-width: 3em;
+    margin: 10px;
+}
+#under21 {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+    max-width: 3em;
+    margin: 10px;
+}
+#over21:hover {
+    background-color: lightgrey;
+}
+#under21:hover {
+    background-color: lightgrey;
+}
+.recept-img {
+    max-width: 100%;
+}
+footer {
+    position: relative;
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.fot-logga {
+    width: 10em;
+}
