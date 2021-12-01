@@ -1,21 +1,23 @@
-let state;
-window.onload=function() {
-    let obj = document.getElementById('age_verify');
-    state=(state==null)?'show':state;
-    // No CSS, no reason to use className
-    obj.className=state;
-
-    // The use of `onclick` works, but using a more modern approach
-    // is best.
-    // This reference will explain things far better than I can:
-    // http://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick
-
-    document.getElementById('over21').onclick=function() {
-        // No point in setting class name if you arent' using CSS
-        obj.className=(obj.className==='show')?'hide':'show';
-        state=obj.className;
-        obj.style.display = 'none';
-        setcookie();
-        return false;
+let slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
 }
