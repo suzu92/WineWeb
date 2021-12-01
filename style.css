@@ -1,411 +1,128 @@
-* {
+html {
     box-sizing: border-box;
+    overflow-x:hidden
 }
 body {
-    margin: 0;
-    padding: 0;
-    background: black;
+    margin:0;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5
+}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    margin:10px 0
 }
 p {
-    color: white;
+    margin: 1em;
 }
-nav {
-    background-size: cover;
-    text-align: center;
-    padding-bottom: 4em;
-}
-nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
-}
-.nav-logga {
-    width: 5em;
-}
-.produkter {
-    width: 55em;
-}
-#ageverify_box {
-    color: white;
-    font-size: large;
-    font-weight: bold;
-    padding: 5px;
-}
-#agebtn_contain {
-    background-color: white;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
-}
-#over21 {
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    font-size: 1.5em;
-    text-align: center;
-    padding: .5em;
-    max-width: 3em;
-    margin: 10px;
-}
-#under21 {
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    font-size: 1.5em;
-    text-align: center;
-    padding: .5em;
-    max-width: 3em;
-    margin: 10px;
-}
-#over21:hover {
-    background-color: lightgrey;
-}
-#under21:hover {
-    background-color: lightgrey;
-}
-.recept-img {
+.header {
     max-width: 100%;
 }
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    color: white;
+.nav {
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0
+}
+.btn {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
     font-size: 1em;
-    text-align: center;
-    padding-top: 5em;
-    background-size: cover;
-    display: inline-block;
-    text-decoration: none;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap}
+.btn:hover{
+    color:white;
+    background-color:lightgray;
 }
-.fot-logga {
-    width: 15em;
+.content {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px
 }
-
-/*Index sidan
-.index-image {
-    background-image: url("../IMG/skog.JPG");
-    background-color: white;
-    height: 35em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.content-center {
+    text-align:center
+}
+.content-recept {
+    max-width: 100%;
+}
+.kontaktInput {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid gray;
+    width:100%
+}
+.svartLogga {
+    max-width: 40%;
+}
+.slideshow-container {
+    max-width: 500px;
     position: relative;
-}
-.index-text h1 {
+    margin: 0 auto;
     text-align: center;
-    position: relative;
-    padding-top: 5em;
-    padding-bottom: 0;
-    font-size: 2em;
-    color: white;
 }
-.index-text h3 {
-    text-align: center;
-    position: relative;
-    padding-bottom: 3em;
-    color: white;
+.mySlides {
+    display: none;
 }
-.index-text button {
-    text-align: center;
-    position: relative;
+.slide-img {
+    max-width: 30%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 3em;
-    width: 7em;
-    border: transparent;
-    font-family: "Courier New", sans-serif;
-    font-size: 1em;
-    letter-spacing: .2em;
-    background-color: white;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
-.index-btn a:link, a:visited {
-    color: darkgoldenrod;
-    text-decoration: none;
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-button:hover, button:active {
-    background-color: goldenrod;
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
 }
-/*--------------*/
-
-/*About me sidan*/
-ul#about-menu li{
-    display: inline;
-    color: white;
-    padding: .5em;
-    background-color: darkgoldenrod;
-    float: left;
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.1);
 }
-
-.about-image {
-    max-width: 100%;
-    padding-top: 2em;
-}
-
-.about-text {
-    column-count: 3;
-    column-gap: 40px;
-}
-
-@media only screen and (max-width: 678px) {
-    .about-text {
-        column-count: 1;
-    }
-}
-
-
-/*Blog sidan*/
-img {
-    width: 100%;
-}
-
-form {
-    margin: -1.5em;
-    padding-bottom: 2em;
-}
-
-.comment {
-    width: 40%;
-    height: 100px;
-    padding: 1em;
-    background-color: white;
-    color: darkgoldenrod;
-    margin: 2em;
-}
-
-input {
-    display: block;
-    margin: 2em;
-}
-
-@media only screen and (min-width: 678px) {
-    .row {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    .column {
-        float: left;
-        width: 50%;
-        padding: 5px;
-    }
-}
-
-/*----------------*/
-
-/*Products sidan
-.item-a {
-    grid-area: cup-a;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.item-b {
-    grid-area: text-b;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.item-c {
-    grid-area: text-c;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.item-d {
-    grid-area: phonecase-d;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.item-e {
-    grid-area: notepad-e;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.item-f {
-    grid-area: text-f;
-    height: auto;
-    width: auto;
-    align-items: center;
-}
-.product-text h1 {
-    margin: 0 0 0 .75em;
-    padding-top: 2em;
-    font-family: "Courier New", sans-serif;
-}
-.product-text p {
-    margin: 2em 1em 1em 3em;
-    font-family: "Courier New", serif;
-}
-.price-btn {
-    height: 9em;
-    width: 20em;
-    position: relative;
-}
-.price-btn p {
-    display: inline-block;
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
     position: absolute;
-    height: 3em;
-    font-family: "Courier New", serif;
-    margin: 3em;
-    font-size: 1em;
-    font-weight: lighter;
-    color: darkgoldenrod;
-}
-.price-btn button {
-    float: right;
-    display: inline-block;
-    height: 3em;
-    width: 10em;
-    margin: 2em;
-    border: transparent;
-    font-family: "Courier New", sans-serif;
-    font-size: 1em;
-    letter-spacing: .2em;
-    color: white;
-    background-color: darkgoldenrod;
-}
-.price-btn button:hover {
-    background-color: goldenrod;
-}
-img {
-    margin-bottom: 2em;
-    padding: 2em;
-    max-width: 100%;
-}
-/*mobile
-.container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-            "cup-a"
-            "text-b"
-            "text-c"
-            "phonecase-d"
-            "notepad-e"
-            "text-f";
-    overflow: hidden;
-    box-shadow: 20px 10px 10px gray;
-    margin-right: .5em;
-    margin-bottom: 2em;
-}
-/*tablet and desktop
-@media only screen and (min-width: 678px) {
-    .container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas:
-            "cup-a text-b"
-            "text-c phonecase-d"
-            "notepad-e text-f";
-    }
-}
-/*---------------*/
-
-
-
-
-/*Navbar
-.dropbtn {
-    background-color: white;
-    color: darkgoldenrod;
-    padding: 1em;
-    font-size: 1em;
-    font-family: "Courier New", sans-serif;
-    border: none;
-}
-.dropdown {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    z-index: 1;
-}
-.dropdown-content a {
-    color: darkgoldenrod;
-    font-family: "Courier New", sans-serif;
-    padding: 12px 16px;
-    text-decoration: none;
-}
-.dropdown-content a:hover {color: black}
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-flow: column;
-    padding-top: .3em;
-    margin-left: 5%;
-}
-.dropdown:hover .active {color: gold; font-style: italic}
-#navbar {
-    display: none;
-}
-/*Desktop
-@media only screen and (min-width: 678px) {
-    #navbar {
-        display: block;
-    }
-    .dropdown {
-        display: none;
-    }
-    #navbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: white;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-    .navbar-item {
-        display: flex;
-    }
-    .navbar-link {
-        display: flex;
-        color: darkgoldenrod;
-        text-align: center;
-        padding: .84em 1em;
-        text-decoration: none;
-        font-family: "Courier New", serif;
-    }
-    .navbar-link:hover:not(.active) {
-        color: black;
-    }
-    .active {
-        color: goldenrod; font-style: italic;
-    }
-}
-/*---------------*/
-
-/*Footer
-footer {
-    position: relative;
-    bottom: 0;
+    bottom: 8px;
     width: 100%;
-    background-color: white;
-    color: darkgoldenrod;
-    font-family: "Courier New", serif;
-    font-size: .7em;
     text-align: center;
-    padding-top: 5em;
 }
-/*--------------------*/
+.dots {
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: gray;
+}
+
+
+
