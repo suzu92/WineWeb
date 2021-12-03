@@ -66,7 +66,7 @@ p {
     max-width: 40%;
 }
 .slideshow-container {
-    max-width: 500px;
+    max-width: 550px;
     position: relative;
     margin: 0 auto;
     text-align: center;
@@ -75,7 +75,7 @@ p {
     display: none;
 }
 .slide-img {
-    max-width: 30%;
+    height: 550px;
 }
 .prev, .next {
     cursor: pointer;
