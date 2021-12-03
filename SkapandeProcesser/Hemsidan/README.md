@@ -24,6 +24,12 @@ Jag gillade verkligen gubben så jag valde att göra som serierutor fast med ett
 illustrationer av gubben på några olika ställen. Jag hade inga flaskor så jag målade egna i procreate. Tog även kort på 
 stämplarna, justerade dem lite för att inte få med de fula kanterna på dem. Etikett bilderna la jag upp så som de ser ut 
 på datorn.
+![stämpel01](img/IMG_1948.JPG)
+![stämpel02](img/IMG_2022.PNG)
+![stämpel03](img/IMG_2023.PNG)
+![stämpel04](img/IMG_6145.png)
+![stämpel05](img/IMG_6146.png)
+
 
 ##Resultat:
 

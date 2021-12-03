@@ -19,10 +19,18 @@ vilket håll det skulle vara vänt. Tyvärr glömde jag det när jag skissade te
 jag redan börjat skära. Jag hade kunnat börja om men valde istället att utesluta texten och klippte bort den. Det gick
 så snabbt att göra gubben så det kändes som att jag behövde en karaktär till. Min systers sambo kom med ett förslag på
 Gamlebärsvin Tantfan, han hade gjort en omgång med fläder och svartvinbärsvin så det skulle kunna passa.
+![stämpel01](img/IMG_6153.png)
+![stämpel02](img/IMG_6154.png)
+![stämpel03](img/IMG_6148.png)
+![stämpel04](img/IMG_6149.png)
+![stämpel05](img/IMG_6150.png)
 
 ##Resultat:
 
 Trycken av stämplarna blev helt ok, de har lite karaktär med sin ojämnhet.
+![stämpel1](img/IMG_6142.png)
+![stämpel2](img/IMG_6143.png)
+![stämpel3](img/IMG_6151.png)
 
 ##Digital presentation:
 

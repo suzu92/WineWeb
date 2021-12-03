@@ -19,6 +19,7 @@ Fastnade mest för mustaschen, det är den roligaste biten att måla.. och glas�
 på min iPad. Fördelarna med att jobba på iPaden istället för på papper är att det är bekvämare med att kunna jobba i
 lager. Klippa och klistra, flytta runt skissen och ångra kommandot. Dessutom slipper jag scanna in bilden när den är
 klar. Har även större koll på upplösning och storlek.
+![etikett2](img/IMG_1668.JPG)
 
 ## Genomförande:
 
@@ -42,8 +43,11 @@ hade inte tid att beställa från vistaprint denna gången utan det blev bara sk
 ## Resultat:
 
 Jag blev nöjd med resultatet, båda varianterna av etiketten har sina för och nackdelar men själva illustrationen syns
-lika tydligt på båda. Tycker nog att jag fick fram vad jag föreställt mig. Så här i efterhand hade det nog varit lite
-roligt att göra med själva motivet, lite mer färger, detaljer, skuggor och så vidare.
+lika tydligt på båda. Tycker nog att jag fick fram vad jag föreställt mig. Så här i retrospekt hade det nog varit lite
+roligt att göra mer med själva motivet, lite mer färger, detaljer, skuggor och så vidare.
+![etikett1](img/IMG_6152.png)
+![etikett2](img/IMG_6153.png)
+![etikett3](img/IMG_6157.png)
 
 ##Digitala presentationsvägar:
 
