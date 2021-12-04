@@ -10,25 +10,28 @@ den här utbildningen. Jag hittade en hemsida, grythyttanvin, som jag tyckte var
 *Förarbete och val av verktyg:*  
 Eftersom jag jobbat i webstorm som mest den senaste tiden så valde jag att skriva där. Jag började dock på papper. Skissade
 på olika layouter med grythyttan som huvudsaklig inspiration. Tog lite idéer från hemsidor jag gjort tidigare samt från
-tutorials på W3School. 
+tutorials på W3School.
+![hemsida0](img/IMG_6146.png)
 
 ##Genomförande:
 
 Jag började med att skissa layouten på papper. Sen skapade jag ett repo på GitHub där jag kunde börja lägga upp allt.
-I minn första skiss planerade jag att göra flera olika sidor och länka mellan dem. Tyvärr blev det lite för mycket. Magsjuka,
+I min första skiss planerade jag att göra flera olika sidor och länka mellan dem. Tyvärr blev det lite för mycket. Magsjuka,
 kompletteringsuppgift och grupparbete gjorde att det kändes som att jag inte skulle hinna. Så jag valde att göra om allt
 till en sida och sedan länka ner i texten istället. Jag hade inga bra bilder att lägga på sidan dock så jag valde att 
 måla mina egna. För header tänkte jag löv, som att koma in bland träden. Det kändes lite tomt så jag la till en vit 
-logga förvinet ovanpå, ett enkelt gb med gamlebär och bäpple utskrivet. La även till made of sweden bara för att.
+logga förvinet ovanpå, ett gb som jag tog från etiketterna med gamlebär och bäpple utskrivet. La även till made of 
+sweden för att det skulle kännas lite extra, fick idén från grytthyttan där oxå. Jag ville måla mer och fick för mig att
+ett recept kunde vara kul. Det vi gjorde var lite krångligt, min syster sambo är kemist så jag googlade fram ett enklare.
 Jag gillade verkligen gubben så jag valde att göra som serierutor fast med ett recept från vinbanken och slänga in små
 illustrationer av gubben på några olika ställen. Jag hade inga flaskor så jag målade egna i procreate. Tog även kort på 
 stämplarna, justerade dem lite för att inte få med de fula kanterna på dem. Etikett bilderna la jag upp så som de ser ut 
 på datorn.
-![stämpel01](img/IMG_1948.JPG)
-![stämpel02](img/IMG_2022.PNG)
-![stämpel03](img/IMG_2023.PNG)
-![stämpel04](img/IMG_6145.png)
-![stämpel05](img/IMG_6146.png)
+![hemsida1](img/IMG_1948.JPG)
+![hemsida2](img/IMG_2022.PNG)
+![hemsida3](img/IMG_2023.PNG)
+![hemsida4](img/IMG_6145.png)
+
 
 
 ##Resultat:

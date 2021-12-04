@@ -5,7 +5,7 @@
 *Idé och inspiration:*  
 I höstas blev det väldigt mycket äpplen. Jag och min systers sambo bestämde oss för att göra vin av dem i slutet av
 oktober. Flera av flaskorna vi tappade upp vinet var begagnade men några av flaskorna hade inga etiketter. Jag fick en
-idé om att det hade varit kul att göra egna etiketter någon gång. Vi hade ett intern skämt om att kalla det för
+idé om att det hade varit kul att göra egna etiketter någon gång. Vi hade ett internt skämt om att kalla det för
 Bäpplevin gubbjävel men sen blev det inte så mycket mer. När kursen i digitalt skapande började kom idén tillbaka, det
 hade varit väldigt kul att få gjort dem och se det som ett roligt projekt att sen faktiskt kunna använda etiketterna.
 
@@ -38,7 +38,7 @@ tillgång till klister ark där det går att skriva ut etiketter på. Men det ä
 känsliga mot vatten. För att få en högre tryckkvalitet hade jag behövt beställa från ett tryckeri. Jag valde att testa
 båda. Beställde från vistaprint. Jag gick faktiskt tillbaka till detta projektet efter att jag på började mina stämplar.
 Jag gjorde ytterligare en etikett med tantfan. Hennes etikett genomfördes på samma vis men jag
-hade inte tid att beställa från vistaprint denna gången utan det blev bara skrivaren hs mina föräldrar.
+hade inte tid att beställa från vistaprint denna gången utan det blev bara skrivaren hos mina föräldrar.
 
 ## Resultat:
 
@@ -48,6 +48,7 @@ roligt att göra mer med själva motivet, lite mer färger, detaljer, skuggor oc
 ![etikett1](img/IMG_6152.png)
 ![etikett2](img/IMG_6153.png)
 ![etikett3](img/IMG_6157.png)
+![etikett4](img/IMG_6159.png)
 
 ##Digitala presentationsvägar:
 
